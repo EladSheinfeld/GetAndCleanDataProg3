@@ -1,12 +1,12 @@
 # Getting and Cleaning Data - Week 3 Project
   
-  ## How to Run
+# How to Run
   
   ``` 
   source("analysis.R");
   runAnalysis();
   ``` 
-  ## analysis.R
+# analysis.R
   This scrip contains  the following methods:
   1. downloadData - download the data (if the data not already exists)
   2. mergeData - read the measurements, subjects and activities train and test data
