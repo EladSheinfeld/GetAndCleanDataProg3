@@ -11,12 +11,12 @@ The source data was collected by a group of 30 volunteers. Each person performed
 
 ## Reading raw data
 1. Use the read.table() function to read the following files:
-1.1. X_train.txt
-1.2. X_test.txt
-1.3. subject_train.txt
-1.4 subject_test.txt
-1.5. Y_test.txt
-1.6. Y_train.txt
+1. 1. X_train.txt
+1. 2. X_test.txt
+1. 3. subject_train.txt
+1. 4 subject_test.txt
+1. 5. Y_test.txt
+1. 6. Y_train.txt
 2. The train data tables were merged using cbind() into a single train data table
 3. The test data tables were merged using cbind() into a single test data table
 4. The merged train and merged test data tables were combined into single data frame by using rbind()
