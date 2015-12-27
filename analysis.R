@@ -24,12 +24,12 @@ setVariableNames <- function(data){
 }
 
 setActivityNames <- function(data){
-  data$activityID[data$activityID == "1"] <- "walk"
-  data$activityID[data$activityID == "2"] <- "walk upstairs"
-  data$activityID[data$activityID == "3"] <- "walk downstairs"
-  data$activityID[data$activityID == "4"] <- "sit"
-  data$activityID[data$activityID == "5"] <- "stand"
-  data$activityID[data$activityID == "6"] <- "lay"
+  data$activityID[data$activityID == "1"] <- "walking"
+  data$activityID[data$activityID == "2"] <- "walking upstairs"
+  data$activityID[data$activityID == "3"] <- "walking downstairs"
+  data$activityID[data$activityID == "4"] <- "siting"
+  data$activityID[data$activityID == "5"] <- "standing"
+  data$activityID[data$activityID == "6"] <- "laying"
   data
 }
 
